@@ -1,0 +1,57 @@
+{
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.compilerPath": "/usr/bin/clang",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 17,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontFamily":"'Courier New', Menlo, Monaco, consolas",
+        //vim快捷键绑定
+        "vim.easymotion": true,
+        "vim.incsearch": true,
+        "vim.useSystemClipboard": true,
+        "vim.useCtrlKeys": true,
+        "vim.hlsearch": true,
+        "vim.insertModeKeyBindings": [
+          {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+          }
+        ],
+        "vim.normalModeKeyBindingsNonRecursive": [
+          {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+          },
+          {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+          },
+          {
+            "before": ["H"],
+            "after": ["^"]
+          },
+          {
+            "before": ["L"],
+            "after": ["$"]
+          },
+          {
+            "before": ["K"],
+            "commands": ["lineBreakInsert"],
+            "silent": true
+          }
+        ],
+        "vim.leader": "<space>",
+        "vim.handleKeys": {
+          "<C-a>": false,
+          "<C-f>": false
+        }
+} 
